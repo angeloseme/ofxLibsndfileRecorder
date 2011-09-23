@@ -1,0 +1,24 @@
+<install>
+	<name>ofxLibsndFileRecorder</name>
+	<version>0.01</version>
+	<author>Angelo Semeraro</author>
+	<url></url>
+	<add>
+		<src>
+			<folder name="addons/ofxRemoteCamera/src">
+				<file>../../../addons/ofxLibsndFileRecorder/src/ofxLibsndFileRecorder.h</file>
+				<file>../../../addons/ofxLibsndFileRecorder/src/ofxLibsndFileRecorder.cpp</file>
+            </folder>
+		</src>
+
+		<include>
+			<path>../../../addons/ofxLibsndFileRecorder/src</path>
+			<path>../../../addons/ofxLibsndFileRecorder/libs/libsndfile/include</path>
+		</include>
+
+		<link>
+			<lib os="win32" compiler="visualstudio">../../../addons/ofxLibsndfileRecorder/libs/libsndfile/lib/vs2010/libsndfile-1.lib</lib>
+			<lib os="mac"   compiler="xcode">../../../addons/ofxLibsndfileRecorder/libs/libsndfile/lib/osx/scUBlibsndfile.a</lib>
+		</link>
+	</add>
+</install>

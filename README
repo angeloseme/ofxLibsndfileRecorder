@@ -1,0 +1,5 @@
+===================OFXLIBSNDFILERECORDER V 0.01=================
+
+
+The ofxLibsndFileRecorder addon enables you to record audio samples in different formats using libsndfile library.
+Tested on OSX (XCode 3.2.6) and Windows (VS2010) 
