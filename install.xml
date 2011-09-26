@@ -5,7 +5,7 @@
 	<url></url>
 	<add>
 		<src>
-			<folder name="addons/ofxRemoteCamera/src">
+			<folder name="addons/ofxLibsndFileRecorder/src">
 				<file>../../../addons/ofxLibsndFileRecorder/src/ofxLibsndFileRecorder.h</file>
 				<file>../../../addons/ofxLibsndFileRecorder/src/ofxLibsndFileRecorder.cpp</file>
             </folder>
@@ -17,8 +17,8 @@
 		</include>
 
 		<link>
-			<lib os="win32" compiler="visualstudio">../../../addons/ofxLibsndfileRecorder/libs/libsndfile/lib/vs2010/libsndfile-1.lib</lib>
-			<lib os="mac"   compiler="xcode">../../../addons/ofxLibsndfileRecorder/libs/libsndfile/lib/osx/scUBlibsndfile.a</lib>
+			<lib os="win32" compiler="visualstudio">../../../addons/ofxLibsndFileRecorder/libs/libsndfile/lib/vs2010/libsndfile-1.lib</lib>
+			<lib os="mac"   compiler="xcode">../../../addons/ofxLibsndFileRecorder/libs/libsndfile/lib/osx/scUBlibsndfile.a</lib>
 		</link>
 	</add>
 </install>
