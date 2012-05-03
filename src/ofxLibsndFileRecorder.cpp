@@ -56,5 +56,6 @@ void ofxLibsndFileRecorder::finalize(){
 		sf_close(outFile->takeOwnership());
 		initialized=false;
 		recordingSize=0;
+		delete outFile;
 	}
 }
